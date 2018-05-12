@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Authors>cdorst</Authors>
+    <Copyright>Copyright © Christopher Dorst</Copyright>
+    <Description>Interface for service responsible for getting a blob reference</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://cdorst-dev.azureedge.net/nuget/package-icon-64.png</PackageIconUrl>
+    <PackageId>CDorst.Cloud.Azure.Storage.Services.Blobs.Interfaces.ExistingContainerBlobReferenceGetter</PackageId>
+    <PackageLicenseUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Blobs.Interfaces.ExistingContainerBlobReferenceGetter/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Blobs.Interfaces.ExistingContainerBlobReferenceGetter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/cdorst/Cloud.Azure.Storage.Services.Blobs.Interfaces.ExistingContainerBlobReferenceGetter</RepositoryUrl>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CDorst.Azure.Storage.Metapackage" Version="1.0.5" />
+  </ItemGroup>
+
+</Project>
